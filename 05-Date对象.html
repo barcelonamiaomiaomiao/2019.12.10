@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var time=new Date();
+        var year=time.getFullYear();
+        var month=time.getMonth()+1;
+        var day=time.getDate();
+        var hour=time.getHours();
+        var min=time.getMinutes();
+        var second=time.getSeconds();
+        console.log('现在时间为:'+year+'年'+month+'月'+day+'日 '+hour+'时'+min+'分'+second+'秒');
+
+        //时间戳
+        console.log(time.getTime());
+    </script>
+</body>
+</html>

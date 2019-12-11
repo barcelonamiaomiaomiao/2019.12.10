@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //绝对值Math.abs()
+        var a=-30;
+        console.log(Math.abs(a));//30
+        //四舍五入Math.round()
+        var b=3.1415;
+        var b1=3.56;
+        var b2=-3.5;
+        console.log(Math.round(b));//3
+        console.log(Math.round(b1));//4
+        console.log(Math.round(b2));//-3
+        //幂运算Math.pow()
+        var c=5;
+        console.log(Math.pow(c,3));//125
+        //平方根Math.sqrt()
+        var d=25;
+        console.log(Math.sqrt(d));//5
+        //向下取整Math.floor()
+        var e=3.56;
+        var e1=-3.56;
+        console.log(Math.floor(e));//3
+        console.log(Math.floor(e1));//-4
+        //向上取整Math.ceil()
+        var f=3.1;
+        var f1=-3.6;
+        console.log(Math.ceil(f));//4
+        console.log(Math.ceil(f1));//-3
+        //取最大值,最小值Math.max() Math.min()
+        console.log(Math.max(25,7,-1));//25
+        console.log(Math.min(25,7,-1));//-1
+        //随机数Math.random() [5,10]
+        console.log(Math.floor(Math.random()*(10-5+1)+5));
+        //精度问题
+        console.log(Math.round(2.4999));//2
+        console.log(Math.round(2.4999999999999999));//3
+        console.log(2.49999999999999999999==2.5);//true
+       
+        
+    </script>
+</body>
+</html>
